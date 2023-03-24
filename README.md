@@ -24,7 +24,7 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 ## Back end
 Pré-requisitos: Java 17
 
-[TUTORIAL](https://www.youtube.com/watch?v=QekeJBShCy4)
+[TUTORIAL DE INSTALAÇÃO](https://www.youtube.com/watch?v=QekeJBShCy4)
 
 ```bash
 # clonar repositório
