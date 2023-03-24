@@ -72,6 +72,7 @@ PUT /clients/1
 
 # Deleção de cliente
 DELETE /clients/1
+```
 
 # Autor
 
