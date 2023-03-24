@@ -6,7 +6,7 @@
 
 Projeto desenvolvido para o desafio do módulo de CRUD do Bootcamp Spring da DevSuperior.
 
-A aplicação consiste em um CRUD de clientes, onde o cliente será possivel realizar buscas paginadas, busca por id, inserir novo recurso, atualizar recurso e deleter recurso.
+A aplicação consiste em um CRUD de clientes, onde será possivel realizar buscas paginadas, busca por id, inserir novo recurso, atualizar recurso e deleter recurso.
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/cristhianbiten/assets/blob/main/dsclient.png)
