@@ -41,7 +41,7 @@ cd backend
 Pré-requisitos: Postman
 
 Collection do Postman
-https://www.youtube.com/watch?v=QekeJBShCy4
+https://www.getpostman.com/collections/8f7f24addf4ecba59fc1
 
 ```bash
 # Busca paginada de clientes
