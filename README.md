@@ -37,8 +37,8 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-## Back end
-Pré-requisitos: Java 17
+## Testes manuais
+Pré-requisitos: Postman
 
 Collection do Postman
 https://www.youtube.com/watch?v=QekeJBShCy4
