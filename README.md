@@ -1,4 +1,4 @@
-# Dsclient
+# DsClient
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/cristhianbiten/dsclient/blob/main/LICENSE) 
 
 # Sobre o projeto
@@ -27,15 +27,51 @@ Pré-requisitos: Java 17
 [Tutorial de instalação Java](https://www.youtube.com/watch?v=QekeJBShCy4)
 
 ```bash
-# clonar repositório
+# Clonar repositório
 git clone https://github.com/cristhianbiten/dsclient.git
 
-# entrar na pasta do projeto back end
+# Entrar na pasta do projeto back end
 cd backend
 
-# executar o projeto
+# Executar o projeto
 ./mvnw spring-boot:run
 ```
+
+## Back end
+Pré-requisitos: Java 17
+
+Collection do Postman
+https://www.youtube.com/watch?v=QekeJBShCy4
+
+```bash
+# Busca paginada de clientes
+GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name
+
+# Busca de cliente por id
+GET /clients/1
+
+# Inserção de novo cliente
+POST /clients
+{
+  "name": "Maria Silva",
+  "cpf": "12345678901",
+  "income": 6500.0,
+  "birthDate": "1994-07-20T10:30:00Z",
+  "children": 2
+}
+
+# Atualização de cliente
+PUT /clients/1
+{
+  "name": "Maria Silvaaa",
+  "cpf": "12345678901",
+  "income": 6500.0,
+  "birthDate": "1994-07-20T10:30:00Z",
+  "children": 2
+}
+
+# Deleção de cliente
+DELETE /clients/1
 
 # Autor
 
