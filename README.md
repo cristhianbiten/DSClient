@@ -6,7 +6,7 @@
 
 Projeto desenvolvido para o desafio do módulo de CRUD do Bootcamp Spring da DevSuperior.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+A aplicação consiste em um CRUD de clientes, onde o cliente será possivel realizar buscas paginadas, busca por id, inserir novo recurso, atualizar recurso e deleter recurso.
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
@@ -24,7 +24,7 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 ## Back end
 Pré-requisitos: Java 17
 
-[TUTORIAL DE INSTALAÇÃO](https://www.youtube.com/watch?v=QekeJBShCy4)
+[Tutorial de instalação Java](https://www.youtube.com/watch?v=QekeJBShCy4)
 
 ```bash
 # clonar repositório
