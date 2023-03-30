@@ -30,6 +30,9 @@ Pré-requisitos: Java 17
 # Clonar repositório
 git clone https://github.com/cristhianbiten/dsclient.git
 
+# Entrar na pasta do projeto dsclient
+cd client
+
 # Entrar na pasta do projeto back end
 cd backend
 
