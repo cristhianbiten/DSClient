@@ -1,4 +1,4 @@
-# DsClient
+# DSClient
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/cristhianbiten/dsclient/blob/main/LICENSE) 
 
 # Sobre o projeto
