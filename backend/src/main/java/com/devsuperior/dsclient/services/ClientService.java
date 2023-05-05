@@ -16,7 +16,8 @@ import com.devsuperior.dsclient.repositories.ClientRepository;
 import com.devsuperior.dsclient.services.exceptions.DatabaseException;
 import com.devsuperior.dsclient.services.exceptions.ResourceNotFoundException;
 
-import jakarta.persistence.EntityNotFoundException;
+import javax.persistence.EntityNotFoundException;
+
 
 @Service
 public class ClientService {
@@ -48,7 +49,7 @@ public class ClientService {
 	@Transactional
 	public ClientDTO update(Long id, ClientDTO dto) {
 		try {
-			Client entity = repository.getReferenceById(id);
+			Client entity = repository.getOne(id);
 			copyDtoToEntity(entity, dto);
 			entity = repository.save(entity);
 			return new ClientDTO(entity);
