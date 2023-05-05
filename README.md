@@ -18,6 +18,7 @@ A aplicação consiste em um CRUD de clientes, onde será possivel realizar busc
 - JPA / Hibernate
 - Maven
 - H2
+- Swagger
 
 # Como executar o projeto
 
@@ -41,41 +42,12 @@ cd backend
 ```
 
 ## Testes manuais
-Pré-requisitos: Postman
 
 Collection do Postman
 https://www.getpostman.com/collections/8f7f24addf4ecba59fc1
 
-```bash
-# Busca paginada de clientes
-GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name
-
-# Busca de cliente por id
-GET /clients/1
-
-# Inserção de novo cliente
-POST /clients
-{
-  "name": "Maria Silva",
-  "cpf": "12345678901",
-  "income": 6500.0,
-  "birthDate": "1994-07-20T10:30:00Z",
-  "children": 2
-}
-
-# Atualização de cliente
-PUT /clients/1
-{
-  "name": "Maria Silvaaa",
-  "cpf": "12345678901",
-  "income": 6500.0,
-  "birthDate": "1994-07-20T10:30:00Z",
-  "children": 2
-}
-
-# Deleção de cliente
-DELETE /clients/1
-```
+Documentação Swagger
+http://localhost:8080/swagger-ui/index.html
 
 # Autor
 
